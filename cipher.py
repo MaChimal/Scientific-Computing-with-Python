@@ -1,4 +1,4 @@
-### Learn String Manipulation by Building a Cipher
+"""Learn String Manipulation by Building a Cipher."""
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
@@ -34,4 +34,4 @@ def decrypt(message, key):
 print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')
 decryption = decrypt(text, custom_key)
-print(f'\nDecrypted text: {decryption}\n') 
+print(f'\nDecrypted text: {decryption}\n')
